@@ -67,14 +67,14 @@
       </div>
     </header>
     <main>
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button hero-btn" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <section class="section advantages">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -135,31 +135,48 @@
           <h2 class="second-layer-title">What are we doing</h2>
           <ul class="list section-list">
             <li class="item">
-              <img src="./images/img_1.jpg" alt="Desktop apps" width="360" />
+              <img
+                srcset="./images/img_1@1x.jpg 1x, ./images/img_1@2x.jpg 2x"
+                src="./images/img_1@1x.jpg"
+                alt="Desktop apps"
+                width="360"
+              />
             </li>
             <li class="item">
-              <img src="./images/img_2.jpg" alt="Chat bots" width="360" />
+              <img
+                srcset="./images/img_2@1x.jpg 1x, ./images/img_2@2x.jpg 2x"
+                src="./images/img_2@1x.jpg"
+                alt="Chat bots"
+                width="360"
+              />
             </li>
             <li class="item">
-              <img src="./images/img_3.jpg" alt="Mobile apps" width="360" />
+              <img
+                srcset="./images/img_3@1x.jpg 1x, ./images/img_3@2x.jpg 2x"
+                src="./images/img_3@1x.jpg"
+                alt="Mobile apps"
+                width="360"
+              />
             </li>
           </ul>
         </div>
       </section>
-      <!-- <section class="section team">
-        <div class="container">
+      <section class="section team">
+        <div class="container team-container">
           <h2 class="second-layer-title">Our Team</h2>
           <ul class="list section-list">
             <li class="card">
               <img
-                src="./images/Team-card-1.jpg"
+                srcset="
+                  ./images/Team-card-1@1x.jpg 1x,
+                  ./images/Team-card-1@2x.jpg 2x
+                "
+                src="./images/Team-card-1@1x.jpg"
                 alt="Product Designer"
                 width="264"
               />
               <div class="card-content">
-                <h3 class="third-layer-title card-title">
-                  Mark Guerrero
-                </h3>
+                <h3 class="third-layer-title card-title">Mark Guerrero</h3>
                 <p class="text card-text">Product Designer</p>
                 <ul class="list card-networks">
                   <li class="network-item">
@@ -195,7 +212,11 @@
             </li>
             <li class="card">
               <img
-                src="./images/Team-card-2.jpg"
+                srcset="
+                  ./images/Team-card-2@1x.jpg 1x,
+                  ./images/Team-card-2@2x.jpg 2x
+                "
+                src="./images/Team-card-2@1x.jpg"
                 alt="Frontend Developer"
                 width="264"
               />
@@ -235,11 +256,17 @@
               </div>
             </li>
             <li class="card">
-              <img src="./images/Team-card-3.jpg" alt="Marketing" width="264" />
+              <img
+                srcset="
+                  ./images/Team-card-3@1x.jpg 1x,
+                  ./images/Team-card-3@2x.jpg 2x
+                "
+                src="./images/Team-card-3@1x.jpg"
+                alt="Marketing"
+                width="264"
+              />
               <div class="card-content">
-                <h3 class="third-layer-title card-title">
-                  Camila Garcia
-                </h3>
+                <h3 class="third-layer-title card-title">Camila Garcia</h3>
                 <p class="text card-text">Marketing</p>
                 <ul class="list card-networks">
                   <li class="network-item">
@@ -275,14 +302,16 @@
             </li>
             <li class="card">
               <img
-                src="./images/Team-card-4.jpg"
+                srcset="
+                  ./images/Team-card-4@1x.jpg 1x,
+                  ./images/Team-card-4@2x.jpg 2x
+                "
+                src="./images/Team-card-4@1x.jpg"
                 alt="UI Designer"
                 width="264"
               />
               <div class="card-content">
-                <h3 class="third-layer-title card-title">
-                  Daniel Wilson
-                </h3>
+                <h3 class="third-layer-title card-title">Daniel Wilson</h3>
                 <p class="text card-text">UI Designer</p>
                 <ul class="list card-networks">
                   <li class="network-item">
@@ -318,7 +347,7 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
       <section class="section clients">
         <div class="container clients-container">
           <h2 class="second-layer-title">Customers</h2>
@@ -369,7 +398,7 @@
         </div>
       </section>
     </main>
-    <!--<footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-box footer-slogan">
           <a href="./index.html" class="link logo footer-logo"
@@ -517,7 +546,7 @@
           <button type="submit" class="button modal-btn">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
         <svg class="menu-close-icon" width="24" height="24">
